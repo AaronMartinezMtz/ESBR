@@ -1,0 +1,176 @@
+
+$primary: #2196f3;
+$secondary: #1465bb;
+$light: #f9f9f9;
+
+$border-radius-btn: 20px;
+$border-radius: 10px;
+$font-size: 16px;
+
+$navbar-height: 60px;
+$footer-height: 280px;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// PERSONALIZADAS
+.c-primary {
+    color: $primary;
+}
+.c-secondary {
+    color: $secondary;
+}
+// END PERSONALIZADAS
+
+
+* {
+    font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+    font-size: $font-size;
+    background-color: $light;
+}
+
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+h3 {
+    font-size: 1.6rem;
+}
+
+p.subtitle {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+label {
+    font-weight: 500;
+}
+
+li.nav-item a { 
+    color: #212529;
+}
+a.active {
+    color: $primary !important;
+    font-weight: bold;
+}
+
+button, a.btn {
+    border-radius: $border-radius-btn !important;
+    padding: 0.6rem 2rem !important;
+}
+
+input.form-control,
+textarea.form-control,
+.vue-tel-input {
+    border-radius: $border-radius !important;
+    border: 1px solid #ced4da !important;
+}
+
+.vue-tel-input {
+    padding: 0 !important;
+}
+
+.btn.btn-primary, 
+.btn.btn-primary:active {
+    color: white ;
+}
+
+.btn.btn-secondary, 
+.btn.btn-secondary:active {
+    color: white ;
+}
+
+
+.btn.btn-outline-primary:hover,
+.btn.btn-outline-secondary:hover  {
+    color: white ;
+}
+
+
+.bg-secondary,
+.bg-secondary i,
+.bg-secondary li a {
+    color: #fff;
+}
+
+input.form-control:focus, 
+.vue-tel-input:focus-within {
+    box-shadow: 0 0 0 0.05rem rgba(67, 176, 42, 0.25) !important;
+}
+
+
+.vti__input {
+    width: auto !important;
+}
+
+button.navbar-toggler {
+    padding: 0;
+    border: none;
+}
+button.navbar-toggler:focus {
+    box-shadow: none;
+}
+// LAYOUT
+
+.row {
+    margin: 0;
+}
+
+nav {
+    height: $navbar-height;
+}
+
+footer {
+    // height: $footer-height;
+}
+
+.header-content {
+    margin-top: $navbar-height;
+}
+
+main {
+    margin-top: $navbar-height;
+    // min-height: calc(calc( 100vh -  $navbar-height) - $footer-height);
+}
+// END LAYOUT
+
+
+.card {
+    background-color: #fff;
+    border-radius: $border-radius-btn;
+    border: none;
+}
+
+div.liner {
+    width: 5rem;
+    height: 3px;
+    background-color: $primary;
+}
+
+
+// SWIPER
+.swiper-button-prev::after, .swiper-button-next::after {
+    font-size: 20px !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: $primary !important;
+}
+
+@media (max-width: 992px) {
+    .container.nav-container {
+        max-width: inherit !important;
+    }
+}

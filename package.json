@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@types/vue-tel-input": "^2.1.2",
+    "nuxt": "^3.4.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "nuxt-swiper": "^1.1.0",
+    "pinia": "^2.0.35",
+    "sass": "^1.62.1",
+    "sweetalert2": "^11.7.3",
+    "vee-validate": "^4.8.6",
+    "vue-easy-lightbox": "^1.16.0",
+    "vue-tel-input": "^8.1.1",
+    "yup": "^1.1.1"
+  }
+}
