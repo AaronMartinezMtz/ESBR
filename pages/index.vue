@@ -158,7 +158,7 @@
     const items = ref<Information[]>([
         {
             image: 'https://www.educaciontrespuntocero.com/wp-content/uploads/2018/04/matematicas-978x652.jpg',
-            title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit dignissimos veniam ex debitis tempore.',
+            title: 'Matemáticas',
             text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit dignissimos veniam ex debitis tempore impedit labore quidem porro provident odio.'
         },
         {
